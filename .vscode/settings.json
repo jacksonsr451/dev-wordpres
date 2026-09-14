@@ -1,0 +1,11 @@
+{
+  "intelephense.environment.includePaths": [
+    "${workspaceFolder}/vendor/php-stubs/wordpress-stubs"
+  ],
+  "intelephense.files.maxSize": 10000000,
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.files.exclude": [
+    "**/wp-content/uploads/**",
+    "**/wp-content/cache/**"
+  ]
+}

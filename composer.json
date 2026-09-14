@@ -1,0 +1,12 @@
+{
+  "name": "jacksonsr451/wordpress-development",
+  "description": "Ferramentas de desenvolvimento para o ambiente WordPress local.",
+  "type": "project",
+  "license": "proprietary",
+  "require-dev": {
+    "php-stubs/wordpress-stubs": "^6.8"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

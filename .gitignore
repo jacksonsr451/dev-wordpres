@@ -1,4 +1,6 @@
 .env
+wp-content/plugins/
+wp-content/themes/
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/

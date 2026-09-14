@@ -23,6 +23,7 @@ O banco fica persistido no volume Docker `db_data`, e os arquivos do WordPress n
 
 - Plugins: `wp-content/plugins/`
 - Temas: `wp-content/themes/`
+- Plugins e temas ficam fora do versionamento deste repositório; cada projeto pode ter seu próprio repositório Git dentro dessas pastas.
 - Uploads e arquivos gerados: `wp-content/uploads/` (nao versionar)
 - Banco de dados: `http://localhost:8081` (usuario `root`, senha definida em `.env`)
 

@@ -1,0 +1,7 @@
+.env
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+*.log

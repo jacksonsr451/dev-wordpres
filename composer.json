@@ -4,7 +4,21 @@
   "type": "project",
   "license": "MIT",
   "require-dev": {
-    "php-stubs/wordpress-stubs": "^6.8"
+    "php-stubs/wordpress-stubs": "^6.8",
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "JackCommerce\\": "wp-content/plugins/jackcommerce/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JackCommerce\\Tests\\": "wp-content/plugins/jackcommerce/tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --configuration wp-content/plugins/jackcommerce/phpunit.xml.dist"
   },
   "config": {
     "sort-packages": true
